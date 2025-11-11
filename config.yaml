@@ -1,0 +1,33 @@
+# config.yaml
+telegram_bot_token: '8217559854:AAEWAps7VbT8Cr2WkSMDExif9MLdxhrYu6I' # Токен вашего нового бота
+admin_telegram_id: 8419073821 # Ваш Telegram ID для администрирования бота (замените на свой)
+target_chat: '@resto_parser_bot' # Куда пересылать: @username или chat_id. **ВАЖНО: для Telethon это должен быть username вашего бота!**
+scrape_interval_seconds: 15 # Как часто сканировать сайты (в секундах)
+db_path: 'resto_parser.db' # Имя файла базы данных
+test_mode: true # Режим работы бота:
+                # true = 📰 Отправляет только НОВУЮ статью, затем ждёт следующую (основной режим)
+                # false = 📋 Отправляет все новые статьи сразу (массовая отправка)
+
+# Настройки для Telethon клиента (аккаунта пользователя)
+api_id: 39921126 # Ваш Telegram API_ID
+api_hash: '19db4df0a72bd9830ff3a89b31681f0a' # Ваш Telegram API_HASH
+session_name: 'telethon_session' # Имя файла сессии для Telethon
+telegram_scan_interval_seconds: 60 # Как часто Telethon-скрипт будет проверять каналы на пропущенные сообщения (в секундах)
+
+# api_id: 39921126          # ваш Telegram API_ID
+# api_hash: '19db4df0a72bd9830ff3a89b31681f0a'
+# session_name: 'my_session'  # имя файла сессии .session
+# target_chat: '@tembl4_dev' # куда пересылать: @username или chat_id
+# telegram_channels:
+#   - '@vkusonomika'
+#   - '@mskvedenie'
+#   - '@restlevtest'
+# sites:
+#   - url: 'https://www.restoran.ru/msk/news/restoransnewsmsk/'
+#   - url: 'https://bg.ru/bg/food/rest-news'
+#     # если rss не указан — будет обычный HTML-скан
+# scrape_interval_seconds: 300   # как часто сканировать сайты (в секундах)
+
+# #8217559854:AAEWAps7VbT8Cr2WkSMDExif9MLdxhrYu6I
+
+# #restoparser
